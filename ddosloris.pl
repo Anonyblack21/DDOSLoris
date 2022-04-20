@@ -2,9 +2,6 @@
 use strict;
 use IO::Socket::INET;
 use IO::Socket::SSL;
-use IO::Socket::TCP;
-use IO::Socket::HTTP;
-use IO::Socket::FTP;
 use Getopt::Long;
 use Config;
 
